@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Myanmar Text", "Pyidaungsu", "Noto Sans Myanmar", "Segoe UI",
+    ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    line-height: 1.75;
+  }
+}
